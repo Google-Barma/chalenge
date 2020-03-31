@@ -1,0 +1,240 @@
+/* * {
+  outline: 1px solid red;
+} */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: ffffff;
+  font-size: 18px;
+}
+
+header {
+  width: 1920px;
+  height: 800px;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 45px;
+  /* text-align: center; */
+  margin-left: 427px;
+  font-weight: 400;
+}
+
+span {
+  color: #ffcf59;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.currency-buttom {
+  height: 55px;
+  width: 360px;
+  background: none;
+  border-color: #ffcf59;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.site-navigation {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a:hover {
+  color: #ffcf59;
+}
+
+.logo-text-title {
+  font-size: 33px;
+  font-weight: 700;
+  margin-left: 100px;
+}
+
+.site-logo {
+  width: 63px;
+  height: 78px;
+  margin-left: 390px;
+  margin-top: 13px;
+  display: inline-block;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+}
+
+.radio {
+  margin-left: 820px;
+  margin-top: 195px;
+}
+
+.radio-list {
+  margin: 15px;
+}
+
+.radio-button {
+  height: 25px;
+  width: 25px;
+  background: none;
+  border-color: #ffcf59;
+  border-radius: 10px;
+}
+
+.left-info-block {
+  border: 3px solid #ffffff;
+  border-radius: 3px;
+  width: 488px;
+  height: 287px;
+  margin-left: 390px;
+  margin-top: 120px;
+  color: #ffffff;
+}
+
+.left-info-block-title {
+  font-size: 33px;
+  margin-left: 98px;
+  margin-top: 42px;
+  font-weight: 500;
+}
+
+.left-block-text {
+  font-size: 33px;
+  font-weight: 400;
+  /* display: inline-block; */
+  margin-left: 98px;
+  margin-bottom: 15px;
+}
+
+.change-money {
+  font-size: 19;
+  margin-left: 98px;
+  background: none;
+  padding: 14px 65px;
+  color: #ffcf59;
+  /* -moz-border-radius: 5px; */
+  /* -webkit-border-radius: 5px; */
+  border-radius: 35px;
+  border: 3px solid #ffcf59;
+  outline: none;
+}
+.change-money:hover {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.graph-bitcoin {
+  margin-left: 404px;
+  margin-top: 208px;
+}
+
+.bit-coin-calc {
+  width: 1920px;
+  height: 903px;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg_calc.png);
+  background-size: cover;
+}
+
+.buy-header {
+  margin-left: 833px;
+  padding-top: 116px;
+  color: #ffffff;
+}
+
+.value-calc {
+  margin-left: 548px;
+  margin-top: 128px;
+}
+
+.sum {
+  margin-left: 548px;
+  margin-top: 30px;
+}
+
+.full-name {
+  font-size: 15;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.small-text-calc {
+  margin-left: 837px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.course-sum {
+  color: #ffffff;
+  margin-left: 720px;
+  font-size: 33px;
+}
+
+.user-data {
+  list-style: none;
+  display: inline-block;
+  margin-left: 320px;
+}
+
+.user-data li {
+  margin: 0px;
+}
+
+.change-button {
+  font-size: 19;
+  margin-left: 850px;
+  margin-top: 80px;
+  background: none;
+  padding: 14px 65px;
+  color: #ffcf59;
+  /* -moz-border-radius: 5px; */
+  /* -webkit-border-radius: 5px; */
+  border-radius: 35px;
+  border: 3px solid #ffcf59;
+  outline: none;
+}
+.change-button:hover {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.bg-image {
+  width: 1920px;
+  height: 499px;
+  background-image: url(../img/bg-foot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pay-info {
+  margin-left: 430px;
+}
+
+.pay-info-list {
+  margin-top: 210px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>КриптоБиржа</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <!-- site logo -->
+      <div class="site-logo">
+        <a href="#" class="site-link"> </a>
+        <p class="logo-text-title">Крипто<span>Биржа</span></p>
+      </div>
+
+      <!-- site navigation -->
+      <nav>
+        <ul class="site-navigation">
+          <li class="nav-site"><a href="#">Главная</a></li>
+          <li><a href="#">Обмен</a></li>
+          <li><a href="#">Соглашение</a></li>
+          <li><a href="#">Гарантии</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- block left -->
+      <div class="left-info-block">
+        <h3 class="left-info-block-title">КриптоБиржа</h3>
+        <p class="left-block-text"><span>Онлайн</span>обмен<br />биткоинов</p>
+        <form action="#">
+          <button class="change-money" src="https://google.com">
+            Обменять
+          </button>
+        </form>
+      </div>
+
+      <!-- bottom menu navigation ?????-->
+      <nav class="radio">
+        <ul class="radio-list">
+          <li class="radio-list">
+            <input type="radio" class="radio-button" name="button" />
+          </li>
+          <li class="radio-list">
+            <input type="radio" class="radio-button" name="button" />
+          </li>
+          <li class="radio-list">
+            <input type="radio" class="radio-button" name="button" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="graph-bitcoin">
+        <h2 class="main-header">Курс Bitcoin</h2>
+        <img src="img/course-bitcoin.png" alt="" width="1130" height="712" />
+      </section>
+
+      <!-- bitcoin calc -->
+      <section class="bit-coin-calc">
+        <h2 class="buy-header">
+          Купить Bitcoin
+        </h2>
+
+        <!-- calc -->
+        <section class="value-calc">
+          <input
+            class="currency-buttom"
+            type="text"
+            name="rub"
+            id="rub"
+            value="RUB"
+            step="1"
+          />
+          <input
+            class="currency-buttom"
+            type="text"
+            name="Bitcoin"
+            id="bitcoin"
+            value="Bitcoin"
+            step="1"
+          />
+        </section>
+        <section class="sum">
+          <input
+            class="currency-buttom"
+            type="text"
+            name="give"
+            id="give"
+            value="введите сумму"
+            step="1"
+          />
+
+          <input
+            class="currency-buttom"
+            type="text"
+            name="recieve"
+            id="recieve"
+            value="введите сумму"
+            step="1"
+          />
+        </section>
+        <p class="small-text-calc">min 3000 RUB</p>
+        <p class="course-sum">Курс обмена 10000 RUB: <span>BTC</span></p>
+
+        <!-- user data -->
+        <ul class="user-data">
+          <li>
+            <p class="full-name">Ф.И.О. отправителя</p>
+            <input
+              class="currency-buttom"
+              type="text"
+              name="full-name"
+              id="full-name"
+              value="ф.и.о. полностью"
+            />
+          </li>
+          <li>
+            <p class="full-name">name@mail.ru</p>
+            <input
+              class="currency-buttom"
+              type="text"
+              name="email"
+              id="email"
+              value="name@mail.ru"
+            />
+          </li>
+          <li>
+            <p class="full-name">Кошелёк для получения</p>
+            <input
+              class="currency-buttom"
+              type="text"
+              name="wallet"
+              id="wallet"
+              value="ПВА8А8ВП7ВЫ77ВАП"
+            />
+          </li>
+        </ul>
+        <form action="#">
+          <button class="change-button">Обменять</button>
+        </form>
+      </section>
+    </main>
+
+    <!--  -->
+    <footer class="bg-image">
+      <section class="pay-info">
+        <ul class="pay-info-list">
+          <li>
+            <a href=""
+              ><img
+                src="img/mastercard.png"
+                alt="mastercard"
+                width="128"
+                height="84"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="img/visa.png" alt="visa" width="129" height="84"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="img/stripe.png" alt="stripe" width="128" height="84"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="img/discover.png"
+                alt="discover"
+                width="128"
+                height="84"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
