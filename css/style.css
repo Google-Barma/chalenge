@@ -42,32 +42,18 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 50px;
-  margin-left: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
-}
-
-.currency-buttom {
-  height: 55px;
-  width: 360px;
-  background: none;
-  border-color: #ffcf59;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 400;
-  outline: none;
-  margin-right: 30px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .site-navigation {
   color: #ffffff;
   font-size: 18px;
   text-transform: uppercase;
+  margin-left: 250px;
 }
 a:hover {
   color: #ffcf59;
@@ -76,22 +62,26 @@ a:hover {
 .logo-text-title {
   font-size: 33px;
   font-weight: 700;
-  margin-left: 100px;
+  margin-left: 80px;
+  color: #ffffff;
 }
 
-.site-logo {
+.site-link {
   width: 63px;
   height: 78px;
-  margin-left: 390px;
-  margin-top: 13px;
-  display: inline-block;
   background-image: url(../img/logo.png);
   background-size: cover;
+  display: inline-block;
+  margin-left: 390px;
+  margin-top: 13px;
+}
+.site-logo {
+  display: inline-block;
 }
 
 .radio {
   margin-left: 820px;
-  margin-top: 195px;
+  margin-top: 155px;
 }
 
 .radio-list {
@@ -112,7 +102,7 @@ a:hover {
   width: 488px;
   height: 287px;
   margin-left: 390px;
-  margin-top: 120px;
+  margin-top: 190px;
   color: #ffffff;
 }
 
@@ -205,6 +195,21 @@ a:hover {
   margin: 0px;
 }
 
+.currency-buttom {
+  height: 55px;
+  width: 360px;
+  background: none;
+  border-color: #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .change-button {
   font-size: 19;
   margin-left: 850px;
@@ -232,7 +237,7 @@ a:hover {
 }
 
 .pay-info {
-  margin-left: 430px;
+  margin-left: 550px;
 }
 
 .pay-info-list {
