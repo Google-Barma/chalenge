@@ -101,6 +101,12 @@ li {
   border-radius: 10px;
 }
 
+.radio-button {
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/yellow-button.png);
+}
+
 .left-info-block {
   border: 3px solid #ffffff;
   border-radius: 3px;
@@ -164,6 +170,19 @@ li {
   margin-bottom: 15px;
   padding-top: 116px;
   color: #ffffff;
+}
+
+.line-block1 {
+  background-color: #ffcf59;
+  border: #ffcf59 1px solid;
+  width: 64px;
+  height: 3px;
+  margin-left: 510px;
+  margin-bottom: 50px;
+}
+
+.main-header {
+  margin-bottom: 15px;
 }
 
 .line-block {
