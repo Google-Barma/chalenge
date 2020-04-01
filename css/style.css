@@ -80,8 +80,8 @@ a:hover {
 }
 
 .radio {
-  margin-left: 820px;
-  margin-top: 155px;
+  margin-left: 800px;
+  margin-top: 125px;
 }
 
 .radio-list {
@@ -139,8 +139,8 @@ a:hover {
 }
 
 .graph-bitcoin {
-  margin-left: 404px;
-  margin-top: 208px;
+  margin-left: 395px;
+  margin-top: 120px;
 }
 
 .bit-coin-calc {
@@ -152,14 +152,23 @@ a:hover {
 }
 
 .buy-header {
-  margin-left: 833px;
+  margin-left: 780px;
+  margin-bottom: 15px;
   padding-top: 116px;
   color: #ffffff;
 }
 
+.line-block {
+  background-color: #ffcf59;
+  border: #ffcf59 1px solid;
+  width: 64px;
+  height: 3px;
+  margin-left: 900px;
+}
+
 .value-calc {
   margin-left: 548px;
-  margin-top: 128px;
+  margin-top: 80px;
 }
 
 .sum {
@@ -207,12 +216,20 @@ a:hover {
   outline: none;
   margin-right: 30px;
   text-transform: uppercase;
-  text-align: center;
+  padding-left: 20px;
+  /* text-align: center; */
+}
+
+#bitcoin {
+  padding-left: 50px;
+  background-image: url(../img/bit-icon.png);
+  background-repeat: no-repeat;
+  background-position: 20px, 20px;
 }
 
 .change-button {
   font-size: 19;
-  margin-left: 850px;
+  margin-left: 840px;
   margin-top: 80px;
   background: none;
   padding: 14px 65px;
@@ -237,7 +254,7 @@ a:hover {
 }
 
 .pay-info {
-  margin-left: 550px;
+  margin-left: 530px;
 }
 
 .pay-info-list {
