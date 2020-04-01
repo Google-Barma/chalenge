@@ -55,8 +55,14 @@ li {
   text-transform: uppercase;
   margin-left: 250px;
 }
-a:hover {
+.main-link:hover {
   color: #ffcf59;
+  width: 64px;
+  height: 4px;
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 70px;
 }
 
 .logo-text-title {
